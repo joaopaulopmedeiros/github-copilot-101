@@ -10,7 +10,7 @@ public class ItemsController : ControllerBase
     {
         "mars", "earth"
     };
-
+    
     [HttpGet]
     public IActionResult Get() => Ok(Items);
 }
