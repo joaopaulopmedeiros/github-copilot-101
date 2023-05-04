@@ -1,5 +1,3 @@
-using Microsoft.AspNetCore.Mvc;
-
 namespace Demo.Api.Controllers;
 
 [ApiController]
