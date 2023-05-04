@@ -19,10 +19,10 @@ Obs: values per user and per month.
 ## ▶️ Demo App
 Try it out using a net7.0 web api
 
-## 🔗 References
+## 🔗 Useful Links
 1.  [Landing Page](https://github.com/features/copilot);
-2.  [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot).
-3. [Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)
+2.  [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot);
+3. [Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
 ---
 
 Feito com ♥ por [joaopaulopmedeiros](https://github.com/joaopaulopmedeiros)
