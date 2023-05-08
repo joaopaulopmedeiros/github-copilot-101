@@ -5,7 +5,7 @@ namespace Demo.Api.Controllers;
 public class SearchController : ControllerBase
 {
     /// <summary>
-    /// Binary Search
+    /// Binary Search O(log n)
     /// </summary>
     /// <param name="request"></param>
     /// <returns>Index of item</returns>
@@ -21,7 +21,7 @@ public class SearchController : ControllerBase
     }
 
     /// <summary>
-    /// Linear Search
+    /// Linear Search O(n)
     /// </summary>
     /// <param name="request"></param>
     /// <returns></returns>
