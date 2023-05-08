@@ -9,7 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Api", "src\Demo.Api\De
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{89F8C4CC-9EB5-4935-A041-2A47A6CC2658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Api.UnitTests", "tests\Demo.Api.UnitTests\Demo.Api.UnitTests.csproj", "{16A342D3-854F-4D9A-A2F2-421ECD4B20C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Api.UnitTests", "tests\Demo.Api.UnitTests\Demo.Api.UnitTests.csproj", "{16A342D3-854F-4D9A-A2F2-421ECD4B20C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{64C1E7E1-339B-4A08-89DF-D88C433F3BC4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

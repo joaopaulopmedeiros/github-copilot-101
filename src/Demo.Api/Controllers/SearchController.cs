@@ -8,6 +8,7 @@ public class SearchController : ControllerBase
     /// Binary Search O(log n)
     /// </summary>
     /// <param name="request"></param>
+    /// <param name="service"></param>
     /// <returns>Index of item</returns>
     [HttpGet("Binary")]
     public IActionResult BinarySearch
@@ -24,6 +25,7 @@ public class SearchController : ControllerBase
     /// Linear Search O(n)
     /// </summary>
     /// <param name="request"></param>
+    /// <param name="service"></param>  
     /// <returns></returns>
     [HttpGet("Linear")]
     public IActionResult LinearSearch
