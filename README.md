@@ -25,4 +25,4 @@ Try it out using a net7.0 web api
 3. [Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
 ---
 
-Feito com ♥ por [joaopaulopmedeiros](https://github.com/joaopaulopmedeiros)
+Built with ♥ by [joaopaulopmedeiros](https://github.com/joaopaulopmedeiros)
