@@ -10,9 +10,13 @@ public class SearchController : ControllerBase
     /// <param name="request"></param>
     /// <returns>Index of item</returns>
     [HttpGet("Binary")]
-    public IActionResult BinarySearch([FromQuery] SearchRequest request)
+    public IActionResult BinarySearch
+    (
+        [FromServices] BinarySearchService service,
+        [FromQuery] SearchRequest request
+    )
     {
-        var result = BinarySearchService.Run(request.Array, request.Value);
+        var result = service.Run(request.Array, request.Value);
         return Ok(result);
     }
 
@@ -22,9 +26,13 @@ public class SearchController : ControllerBase
     /// <param name="request"></param>
     /// <returns></returns>
     [HttpGet("Linear")]
-    public IActionResult LinearSearch([FromQuery] SearchRequest request)
+    public IActionResult LinearSearch
+    (
+        [FromServices] LinearSearchService service, 
+        [FromQuery] SearchRequest request
+    )
     {
-        var result = LinearSearchService.Run(request.Array, request.Value);
+        var result = service.Run(request.Array, request.Value);
         return Ok(result);
     }
 }

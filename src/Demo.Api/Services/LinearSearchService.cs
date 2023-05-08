@@ -1,8 +1,8 @@
 ﻿namespace Demo.Api.Services;
 
-public static class LinearSearchService
+public class LinearSearchService : ISearchService
 {
-    public static int Run(int[] array, int target)
+    public int Run(int[] array, int target)
     {
         for (int i = 0; i < array.Length; i++)
         {

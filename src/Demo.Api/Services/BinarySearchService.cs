@@ -1,8 +1,8 @@
 ﻿namespace Demo.Api.Services;
 
-public static class BinarySearchService
+public class BinarySearchService : ISearchService
 {
-    public static int Run(int[] array, int target)
+    public int Run(int[] array, int target)
     {
         int left = 0;
         int right = array.Length - 1;
